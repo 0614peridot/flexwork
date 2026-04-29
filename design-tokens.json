@@ -1,0 +1,159 @@
+{
+  "color": {
+    "grey": {
+      "5":   { "value": "#0d0d0d", "description": "Primary text, filled button bg" },
+      "36":  { "value": "#5d5d5d", "description": "Secondary text, default button label" },
+      "56":  { "value": "#8f8f8f", "description": "Muted / placeholder text" },
+      "91":  { "value": "#e8e8e8", "description": "Selected item bg, square-hover btn bg" },
+      "98":  { "value": "#f9f9f9", "description": "Subtle surface" }
+    },
+    "white": {
+      "solid": { "value": "#ffffff", "description": "White surface" }
+    },
+    "black": {
+      "solid": { "value": "#000000", "description": "Pure black" },
+      "0pct":  { "value": "rgba(0,0,0,0)", "description": "Transparent" }
+    },
+    "alpha": {
+      "grey56-20pct": { "value": "rgba(143,143,143,0.2)", "description": "Subtle border on pill button" },
+      "grey5-5pct":   { "value": "rgba(13,13,13,0.05)",  "description": "Hover bg on default/subtle items" }
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "sans": { "value": "Helvetica, sans-serif", "description": "Primary UI font" },
+      "mono": { "value": "Roboto Mono, monospace", "description": "Code / annotation font" }
+    },
+    "fontSize": {
+      "sm":   { "value": "14px", "description": "Sidebar nav labels" },
+      "base": { "value": "16px", "description": "Button labels, body text" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400" }
+    },
+    "lineHeight": {
+      "tight": { "value": "20px", "description": "Used for all UI text" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0" }
+    }
+  },
+
+  "spacing": {
+    "1":  { "value": "2px" },
+    "2":  { "value": "4px",  "description": "sds-size-space-100" },
+    "3":  { "value": "6px",  "description": "Gap inside page button" },
+    "4":  { "value": "8px",  "description": "sds-size-space-200" },
+    "5":  { "value": "10px", "description": "Padding inside pill button (y + icon gap)" },
+    "6":  { "value": "16px", "description": "Horizontal padding in pill button (sds-size-space-s)" }
+  },
+
+  "borderRadius": {
+    "sm":   { "value": "8px",    "description": "Square icon button" },
+    "md":   { "value": "10px",   "description": "Page / nav button" },
+    "pill": { "value": "1000px", "description": "Icon button (primary/subtle), pill button" }
+  },
+
+  "strokeWidth": {
+    "thin":    { "value": "0.8px" },
+    "default": { "value": "1px",  "description": "Page button bottom border" },
+    "thick":   { "value": "1.2px","description": "Pill button border" }
+  },
+
+  "sizing": {
+    "iconSm":     { "value": "16px", "description": "Small icon inside pill button" },
+    "icon":       { "value": "20px", "description": "Standard icon size" },
+    "iconLg":     { "value": "24px", "description": "Large icon (primary icon button, logo)" },
+    "btnIcon":    { "value": "36px", "description": "Icon button tap area (all variants)" },
+    "sidebarItem":{ "value": "248px","description": "Width of sidebar page button" },
+    "navHeight":  { "value": "36px", "description": "Height of sidebar page button" }
+  },
+
+  "component": {
+    "iconButton": {
+      "size": "36px",
+      "borderRadius": {
+        "primary": "1000px",
+        "subtle":  "1000px",
+        "square":  "8px"
+      },
+      "bg": {
+        "primaryDefault": "#0d0d0d",
+        "primaryHover":   "#5d5d5d",
+        "subtleDefault":  "transparent",
+        "subtleHover":    "rgba(143,143,143,0.2)",
+        "subtlePressed":  "rgba(13,13,13,0.05)",
+        "squareDefault":  "transparent",
+        "squareHover":    "#e8e8e8",
+        "squarePressed":  "transparent"
+      }
+    },
+    "pageButton": {
+      "width":        "248px",
+      "height":       "36px",
+      "borderRadius": "10px",
+      "paddingX":     "10px",
+      "paddingY":     "8px",
+      "gap":          "6px",
+      "fontSize":     "14px",
+      "lineHeight":   "20px",
+      "color":        "#0d0d0d",
+      "bg": {
+        "default":  "transparent",
+        "hover":    "rgba(13,13,13,0.05)",
+        "selected": "#e8e8e8"
+      }
+    },
+    "pillButton": {
+      "borderRadius": "1000px",
+      "border":       "1.2px solid rgba(143,143,143,0.2)",
+      "paddingX":     "16px",
+      "paddingY":     "10px",
+      "gap":          "10px",
+      "fontSize":     "16px",
+      "lineHeight":   "20px",
+      "iconSize":     "16px",
+      "bg": {
+        "default": "transparent",
+        "hover":   "rgba(13,13,13,0.05)"
+      },
+      "color": {
+        "default": "#5d5d5d",
+        "hover":   "#000000"
+      }
+    }
+  },
+
+  "icon": {
+    "path":   "root/icon svg/",
+    "format": "svg",
+    "variants": {
+      "1":  { "size": "24px", "name": "chatgpt-voice",   "usage": "Primary icon button (voice/audio)" },
+      "2":  { "size": "20px", "name": "add-person",      "usage": "Subtle icon button" },
+      "3":  { "size": "20px", "name": "variant-3",       "usage": "General" },
+      "4":  { "size": "20px", "name": "variant-4",       "usage": "General" },
+      "5":  { "size": "16px", "name": "variant-5-sm",    "usage": "Small icon" },
+      "6":  { "size": "20px", "name": "variant-6",       "usage": "General" },
+      "7":  { "size": "20px", "name": "variant-7",       "usage": "General" },
+      "8":  { "size": "20px", "name": "variant-8",       "usage": "General" },
+      "9":  { "size": "20px", "name": "variant-9",       "usage": "General" },
+      "10": { "size": "20px", "name": "variant-10",      "usage": "General" },
+      "11": { "size": "20px", "name": "variant-11",      "usage": "General" },
+      "12": { "size": "20px", "name": "variant-12",      "usage": "General" },
+      "13": { "size": "20px", "name": "variant-13",      "usage": "General" },
+      "14": { "size": "24px", "name": "openai-logo",     "usage": "Square icon button (ChatGPT logo)" },
+      "15": { "size": "20px", "name": "variant-15",      "usage": "General" },
+      "16": { "size": "16px", "name": "variant-16-sm",   "usage": "Small icon" },
+      "17": { "size": "20px", "name": "variant-17",      "usage": "General" },
+      "18": { "size": "20px", "name": "variant-18",      "usage": "General" },
+      "19": { "size": "20px", "name": "variant-19",      "usage": "General" },
+      "20": { "size": "20px", "name": "add-person-alt",  "usage": "Subtle icon button alt" },
+      "21": { "size": "20px", "name": "variant-21",      "usage": "General" },
+      "22": { "size": "20px", "name": "variant-22",      "usage": "General" },
+      "23": { "size": "20px", "name": "variant-23",      "usage": "General" },
+      "24": { "size": "20px", "name": "new-project",     "usage": "Page button icon start, more button" },
+      "25": { "size": "20px", "name": "variant-25",      "usage": "General" }
+    }
+  }
+}
