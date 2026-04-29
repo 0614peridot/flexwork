@@ -9,8 +9,8 @@ const ICONS = {
   newChat:       "https://www.figma.com/api/mcp/asset/75c5a0bf-68a7-4ad5-a497-eb01e30773f1",
   searchChats:   "https://www.figma.com/api/mcp/asset/ab80c21a-1a01-44a7-8580-b56f71efdb2f",
   apps:          "https://www.figma.com/api/mcp/asset/00d949d0-ab26-4400-9197-e61a4e485d16",
-  newProject:    "https://www.figma.com/api/mcp/asset/afb36235-2254-42bf-be82-3e8bdacdb2e3",
-  projectFolder: "https://www.figma.com/api/mcp/asset/1f87d7d9-1b9f-422f-b48c-146ba5fffa81",
+  newProject:    "/icons/variant=23.svg",
+  projectFolder: "/icons/variant=22.svg",
   userAvatar:    "https://www.figma.com/api/mcp/asset/03eec1ce-34a4-437d-89b8-c0c26e47770a",
 };
 

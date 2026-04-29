@@ -7,7 +7,7 @@ const ICONS = {
   chevronDown: "https://www.figma.com/api/mcp/asset/c5e71a01-f5f3-4540-9e0e-d36d797f44f6",
   attachIcon:  "https://www.figma.com/api/mcp/asset/277bb730-4942-4127-b010-4c233bde939d",
   micIcon:     "https://www.figma.com/api/mcp/asset/ad606957-0b9c-449c-b6b3-304d16dcae59",
-  voiceIcon:   "https://www.figma.com/api/mcp/asset/5cc4aa9c-38c9-4047-8f4d-15b0c10b2272",
+  voiceIcon:   "/icons/variant=19.svg",
   imageIcon:   "https://www.figma.com/api/mcp/asset/4d83142f-64d4-4c3d-b3b6-8cb6442ac88e",
 };
 
@@ -99,7 +99,7 @@ export default function Home() {
                     className="flex items-center justify-center size-[36px] rounded-full shrink-0 hover:bg-[#5d5d5d] transition-colors cursor-pointer"
                     style={{ backgroundColor: "#0d0d0d" }}
                   >
-                    <img alt="" src={ICONS.voiceIcon} className="size-[20px] object-contain" />
+                    <img alt="" src={ICONS.voiceIcon} className="size-[20px] object-contain" style={{ filter: "brightness(0) invert(1)" }} />
                   </button>
                 </div>
               </div>
