@@ -10,6 +10,7 @@ const ICONS = {
   searchChats:   "https://www.figma.com/api/mcp/asset/ab80c21a-1a01-44a7-8580-b56f71efdb2f",
   apps:          "https://www.figma.com/api/mcp/asset/00d949d0-ab26-4400-9197-e61a4e485d16",
   newProject:    "/icons/variant=23.svg",
+  more:          "/icons/variant=24.svg",
   projectFolder: "/icons/variant=22.svg",
   userAvatar:    "https://www.figma.com/api/mcp/asset/03eec1ce-34a4-437d-89b8-c0c26e47770a",
 };
@@ -156,7 +157,7 @@ export default function Sidebar({ activeId }: SidebarProps) {
         {/* Apps + More */}
         <div className="flex flex-col gap-[2px] pb-[16px] shrink-0 w-full">
           <NavItem icon={ICONS.apps} label="Apps" />
-          <NavItem icon={ICONS.newProject} label="More" />
+          <NavItem icon={ICONS.more} label="More" />
         </div>
 
         {/* Projects */}
@@ -166,7 +167,7 @@ export default function Sidebar({ activeId }: SidebarProps) {
           {PROJECTS.map((name) => (
             <NavItem key={name} icon={ICONS.projectFolder} label={name} />
           ))}
-          <NavItem icon={ICONS.newProject} label="More" />
+          <NavItem icon={ICONS.more} label="More" />
         </div>
 
         {/* Recents */}
